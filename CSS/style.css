@@ -602,19 +602,26 @@ main
 
 .five-block-buttom-buttom button
 {
-    background: #FF7B47;
-    border: 1px solid #E6E6E6;
+    background: #fff;
+    border: 2px solid #FF7B47;
     box-sizing: border-box;
     border-radius: 0px 5px 5px 0px;
     height: 58px;
     font-family: Montserrat;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 600;
     font-size: 14px;
     line-height: 28px;
     text-align: center;
     letter-spacing: 0.2px;
     margin-right: 40px;
+    color: #FF7B47;
+    
+}
+
+.five-block-buttom-buttom button:hover
+{
+    background: #FF7B47;
     color: #FFFFFF;
 }
 
@@ -986,4 +993,14 @@ footer
     width: 25px;
     height: 25px;
     margin-right: 20px;
+}
+
+.footer-end-img img:hover
+{
+    opacity: 0.5;
+}
+
+.footer-card a p:hover
+{
+    color: red;
 }
